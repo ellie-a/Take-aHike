@@ -6,6 +6,6 @@ export var masterFirebaseConfig = {
   messagingSenderId: "929083383157"
   };
 
-export var googleMaps = {
+export var masterGoogleMaps = {
   apiKey: "AIzaSyB8QAMeparrZZ-4EUVVhhbn9mL8YKK3F3c"
 };
