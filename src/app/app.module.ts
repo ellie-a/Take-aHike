@@ -7,6 +7,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { LandingComponent } from './landing/landing.component';
+import { LocationComponent } from './location/location.component';
 
 
 export const firebaseConfig = {
@@ -19,7 +20,8 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

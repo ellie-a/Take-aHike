@@ -5,3 +5,7 @@ export var masterFirebaseConfig = {
   storageBucket: "take-ahike.appspot.com",
   messagingSenderId: "929083383157"
   };
+
+export var googleMaps = {
+  apiKey: "AIzaSyB8QAMeparrZZ-4EUVVhhbn9mL8YKK3F3c"
+};
