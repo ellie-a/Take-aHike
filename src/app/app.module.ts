@@ -10,6 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LocationComponent } from './location/location.component';
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
+// import { StyledMapDirective } from './styled-map.directive';
 
 
 export const firebaseConfig = {
@@ -23,7 +24,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     LandingComponent,
-    LocationComponent
+    LocationComponent,
+    // StyledMapDirective
   ],
   imports: [
     BrowserModule,

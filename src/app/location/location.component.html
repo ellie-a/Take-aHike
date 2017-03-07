@@ -1,3 +1,9 @@
-<sebm-google-map [latitude]="lat" [longitude]="lng">
-  <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+<sebm-google-map [styles]="mapStyle" [latitude]="lat" [longitude]="lng" >
+  <sebm-google-map-marker [latitude]="lat" [longitude]="lng" >
+  </sebm-google-map-marker>
 </sebm-google-map>
+
+<!-- <sebm-google-map #map [latitude]="lat" [longitude]="lng">
+  <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+  <app-map-content></app-map-content>
+</sebm-google-map> -->
