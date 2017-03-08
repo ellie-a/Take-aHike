@@ -3,7 +3,7 @@
 
 #### By _**Ellie Angell**_
 
-![screenshot](Screen Shot.png)
+![screenshot](screen.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
