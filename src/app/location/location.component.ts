@@ -11,8 +11,8 @@ declare var google:any;
 })
 export class LocationComponent implements OnInit {
   title: string = 'My first angular2-google-maps project';
-  lat: number = 51.678418;
-  lng: number = 7.809007;
+  lat: number = 45.523062;
+  lng: number = -122.676482;
   mapStyle = [
   {
     "elementType": "geometry",
@@ -228,8 +228,6 @@ export class LocationComponent implements OnInit {
     ]
   }
 ];
-
-
   constructor() { }
   ngOnInit() {}
 }

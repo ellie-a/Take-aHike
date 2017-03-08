@@ -1,3 +1,37 @@
+//colors
+$moutain-blue: #A1DAD3;
+$dark-blue: #2F484F;
+$dark-green: #1D3237;
+
+//fonts
+$header-font: 'Josefin Sans', sans-serif;
+
+
+.navBarTop {
+  height: 50px;
+  background-color: $dark-green;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    li {
+      margin: 3% 0 0 0;
+      font-family: $header-font;
+      font-size: 135%;
+      color: $moutain-blue;
+      svg {
+        height: 25px;
+      }
+    }
+    // li:nth-of-type(2){
+    //   margin-top: 5px;
+    // }
+  }
+}
 .sebm-google-map-container {
-  height: 300px;
+  height: 400px;
 }
